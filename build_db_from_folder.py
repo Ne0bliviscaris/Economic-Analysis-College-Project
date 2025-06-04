@@ -20,7 +20,7 @@ def open_file_as_df(file_path):
     return pd.read_csv(file_path, sep=";")
 
 
-def process_folder():
+def build_db_from_folder():
     """Process all CSV files in the specified folder."""
     csv_list = list_csv_files(INPUTS_FOLDER)
 
@@ -40,5 +40,5 @@ def process_folder():
 
 
 if __name__ == "__main__":
-    process_folder()
+    build_db_from_folder()
     print("Database has been built from the CSV files in the folder.")
