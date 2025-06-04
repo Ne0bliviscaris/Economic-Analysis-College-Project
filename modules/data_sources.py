@@ -6,6 +6,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "aktywni-zawodowo-15-89-wg-plci-i-wieku",
     },
     "P3969": {
         "name": "Aktywność ekonomiczna ludności wg miejsca zamieszkania",
@@ -14,6 +15,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "aktywnosc-15-89-wg-miejsca-zamieszkania",
     },
     "P3983": {
         "name": "Odsetek ludności w wieku 15-64 lata wg poziomu wykształcenia",
@@ -22,6 +24,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "ludnosc-15-64-wg-wyksztalcenia",
     },
     "P3970": {
         "name": "Pracujący wg płci, wymiaru czasu pracy i sekcji PKD",
@@ -30,6 +33,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "pracujacy-15-89-wg-plci-wymiaru-i-pkd",
     },
     "P3974": {
         "name": "Współczynnik aktywności zawodowej wg płci i wieku",
@@ -38,6 +42,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "aktywnosc-zawodowa-15-89-wg-plci-i-wieku",
     },
     "P3981": {
         "name": "Współczynnik aktywności zawodowej według poziomu wykształcenia",
@@ -46,6 +51,7 @@ tables = {
         "years": "2010-2024",
         "level": "Regiony (NUTS 2)",
         "last_update": "26.02.2025",
+        "custom-name": "aktywnosc-zawodowa-15-89-wg-wyksztalcenia",
     },
     "P1944": {
         "name": "Bezrobotni zarejestrowani wg płci w gminach",
@@ -54,6 +60,7 @@ tables = {
         "years": "2003-2024",
         "level": "Gminy",
         "last_update": "27.02.2025",
+        "custom-name": "bezrobotni-wg-plci-gminy",
     },
     "P1365": {
         "name": "Oferty pracy wg grup osób",
@@ -62,6 +69,7 @@ tables = {
         "years": "1999-2024",
         "level": "Powiaty",
         "last_update": "11.02.2025",
+        "custom-name": "oferty-pracy-wg-grup",
     },
     "P3567": {
         "name": "Odsetek bezrobotnych zarejestrowanych wg poziomu wykształcenia",
@@ -70,6 +78,7 @@ tables = {
         "years": "2003-2024",
         "level": "Powiaty",
         "last_update": "11.02.2025",
+        "custom-name": "odsetek-bezrobotnych-wg-wyksztalcenia",
     },
     "P3591": {
         "name": "Odsetek bezrobotnych zarejestrowanych wg grup wieku",
@@ -78,6 +87,7 @@ tables = {
         "years": "2010-2024",
         "level": "Powiaty",
         "last_update": "11.02.2025",
+        "custom-name": "odsetek-bezrobotnych-wg-wieku",
     },
     "P1946": {
         "name": "Bezrobotni zarejestrowani wg wieku i płci",
@@ -86,5 +96,6 @@ tables = {
         "years": "2000-2024",
         "level": "Powiaty",
         "last_update": "11.02.2025",
+        "custom-name": "bezrobotni-wg-wieku-i-plci",
     },
 }
