@@ -29,7 +29,7 @@ def get_variable_data(variable_id, page_size=100):
         if len(all_results) >= data.get("totalRecords", 0):
             break
         page_nr += 1
-    return pd.DataFrame(all_results)
+    return pd.DataFrame(all_results) if all_results else None
 
 
 def to_csv(data, filename):
