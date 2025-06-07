@@ -10,8 +10,6 @@ from modules.filename_processing import extract_filename_parts
 from modules.tables_metadata import tables_metadata
 
 INPUTS_FOLDER = "data"
-TABLE_FORMAT = "CREL"  # relational CSV
-# TABLE_FORMAT = "CTAB"  # tabular CSV (multi-dimensional)
 
 
 def list_csv_files(folder):
@@ -21,7 +19,7 @@ def list_csv_files(folder):
 
 def get_table_alias(file):
     """Return table alias for file."""
-    parts = extract_filename_parts(file, table_format=TABLE_FORMAT)
+    parts = extract_filename_parts(file)
     if parts and parts["group"] in tables_metadata:
         table_alias = tables_metadata[parts["group"]]["alias"]
         return f"{table_alias}"
