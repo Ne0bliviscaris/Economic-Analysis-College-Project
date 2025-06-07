@@ -47,7 +47,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "115448", "CREL": "115500"},
-        "alias": "akt_wg_plci_wieku",
+        "alias": "wspolczynnik_akt_wg_plci_wieku",
     },
     "3981": {
         "name": "Współczynnik aktywności zawodowej według poziomu wykształcenia",
