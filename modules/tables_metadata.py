@@ -7,7 +7,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "112225", "CREL": "110345"},
-        "alias": "aktywni_zawodowo_15_44_wg_plci_i_wieku",
+        "alias": "akt_wg_plci_wieku",
     },
     "3969": {
         "name": "Aktywność ekonomiczna ludności wg miejsca zamieszkania",
@@ -17,7 +17,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "113151", "CREL": "113039"},
-        "alias": "aktywnosc_15_44_wg_miejsca_zamieszkania",
+        "alias": "akt_wg_zamieszkania",
     },
     "3983": {
         "name": "Odsetek ludności w wieku 15-64 lata wg poziomu wykształcenia",
@@ -27,7 +27,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "113528", "CREL": "113533"},
-        "alias": "ludnosc_15_44_wg_wyksztalcenia",
+        "alias": "ods_ludnosc_wg_wyksztalcenia",
     },
     "3970": {
         "name": "Pracujący wg płci, wymiaru czasu pracy i sekcji PKD",
@@ -37,7 +37,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "114136", "CREL": "114457"},
-        "alias": "pracujacy_15_44_wg_plci_wymiaru_i_pkd",
+        "alias": "pracujacy_wg_plci_pkd",
     },
     "3974": {
         "name": "Współczynnik aktywności zawodowej wg płci i wieku",
@@ -47,7 +47,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "115448", "CREL": "115500"},
-        "alias": "aktywnosc_zawodowa_15_44_wg_plci_i_wieku",
+        "alias": "akt_wg_plci_wieku",
     },
     "3981": {
         "name": "Współczynnik aktywności zawodowej według poziomu wykształcenia",
@@ -57,7 +57,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "115711", "CREL": "115714"},
-        "alias": "aktywnosc_zawodowa_15_44_wg_wyksztalcenia",
+        "alias": "akt_wg_wyksztalcenia",
     },
     "1944": {
         "name": "Bezrobotni zarejestrowani wg płci w gminach",
@@ -67,7 +67,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "120123", "CREL": "120125"},
-        "alias": "bezrobotni_wg_plci_gminy",
+        "alias": "bezr_wg_plci_gminy",
     },
     "1365": {
         "name": "Oferty pracy wg grup osób",
@@ -77,7 +77,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "120303", "CREL": "120305"},
-        "alias": "oferty_pracy_wg_grup",
+        "alias": "oferty_pracy_grupy",
     },
     "3567": {
         "name": "Odsetek bezrobotnych zarejestrowanych wg poziomu wykształcenia",
@@ -87,7 +87,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "120417", "CREL": "120418"},
-        "alias": "odsetek_bezrobotnych_wg_wyksztalcenia",
+        "alias": "ods_bezr_wg_wyksztalcenia",
     },
     "3591": {
         "name": "Odsetek bezrobotnych zarejestrowanych wg grup wieku",
@@ -97,7 +97,7 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "120542", "CREL": "120544"},
-        "alias": "odsetek_bezrobotnych_wg_wieku",
+        "alias": "ods_bezr_wg_wieku",
     },
     "1946": {
         "name": "Bezrobotni zarejestrowani wg wieku i płci",
@@ -107,6 +107,6 @@ tables_metadata = {
         "regions": ["Polska", "Wielkopolskie", "Mazowieckie", "Zachodniopomorskie"],
         "age_range": "poniżej 45 lat",
         "table_id": {"CTAB": "120123", "CREL": "120759"},
-        "alias": "bezrobotni_wg_wieku_i_plci",
+        "alias": "bezr_wg_wieku_plci",
     },
 }
